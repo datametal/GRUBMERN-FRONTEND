@@ -74,7 +74,6 @@ const SheetContent = React.forwardRef<
 SheetContent.displayName = SheetPrimitive.Content.displayName
 
 const SheetHeader = ({
-  // eslint-disable-next-line react/prop-types
   className,
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) => (
@@ -89,7 +88,6 @@ const SheetHeader = ({
 SheetHeader.displayName = 'SheetHeader'
 
 const SheetFooter = ({
-  // eslint-disable-next-line react/prop-types
   className,
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) => (
@@ -106,7 +104,6 @@ SheetFooter.displayName = 'SheetFooter'
 const SheetTitle = React.forwardRef<
   React.ElementRef<typeof SheetPrimitive.Title>,
   React.ComponentPropsWithoutRef<typeof SheetPrimitive.Title>
-  // eslint-disable-next-line react/prop-types
 >(({ className, ...props }, ref) => (
   <SheetPrimitive.Title
     ref={ref}
@@ -119,7 +116,6 @@ SheetTitle.displayName = SheetPrimitive.Title.displayName
 const SheetDescription = React.forwardRef<
   React.ElementRef<typeof SheetPrimitive.Description>,
   React.ComponentPropsWithoutRef<typeof SheetPrimitive.Description>
-  // eslint-disable-next-line react/prop-types
 >(({ className, ...props }, ref) => (
   <SheetPrimitive.Description
     ref={ref}

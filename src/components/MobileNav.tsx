@@ -17,7 +17,7 @@ const MobileNav = () => {
       <SheetTrigger>
         <Menu className='text-orange-500' />
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent className='space-y-3'>
         <SheetTitle>
           <span>Welcome to GRUBMERN.com</span>
         </SheetTitle>
